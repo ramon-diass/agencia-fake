@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1200px) {
+    .navbar{
+        height: 80px;
+    }
+
+    .logo h1{
+        font-size: 28px;
+    }
+
+    .menu a{
+        font-size: 12px;
+    }
+
+    .header{
+        padding-top: 100px;
+    }
+
+    .txt-headline-top{
+        font-size: 14px;
+        letter-spacing: 12px;
+    }
+
+    .txt-headline-bottom{
+        font-size: 50px;
+    }
+
+    .img-headline img{
+        width: 75%;
+    }
+
+    section h2{
+        font-size: 30px;
+    }
+
+    .card-text h3, .texto-oculto h3{
+        font-size: 16px;
+    }
+
+    .card-text p, .texto-oculto p{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body{
+        background-color: lightgreen;
+    }
+
+    
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        background-color: gray;
+    }
+}
