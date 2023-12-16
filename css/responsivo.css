@@ -42,15 +42,80 @@
 }
 
 @media only screen and (max-width: 992px) {
-    body{
-        background-color: lightgreen;
+    .navbar{
+        height: 60px;
     }
 
-    
+    .logo h1{
+        font-size: 22px;
+    }
+
+    .txt-headline-top{
+        letter-spacing: 9px;
+    }
+
+    .txt-headline-bottom{
+        font-size: 40px;
+    }
+
+    .headline p{
+        font-size: 12px;
+    }
+
+    .contact-btn{
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    .card{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .whats{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 768px){
-    body{
-        background-color: gray;
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        margin-left: 0;
+    }
+
+    .logo h1{
+        text-align: center;
+    }
+
+    .headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p{
+        margin: 20px 0;
+    }
+
+    .contact-btn{
+        padding: 14px;
+    }
+
+    .img-headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    section{
+        margin: 10% 5%;
+    }
+
+    footer{
+        margin-top: 5%;
     }
 }
