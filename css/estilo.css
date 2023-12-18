@@ -7,6 +7,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    max-width: 1400px;
+    margin: auto;
+}
+
 .navbar{
     height: 100px;
     display: flex;
@@ -14,6 +19,8 @@
     align-items: center;
     position: fixed;
     width: 100%;
+    max-width: 1400px;
+    margin: auto;
     background-color: #fff;
 }
 
