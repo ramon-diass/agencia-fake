@@ -79,6 +79,10 @@
 }
 
 @media only screen and (max-width: 768px){
+    .navbar{
+        position: relative;
+    }
+    
     .menu{
         display: none;
     }
@@ -91,9 +95,14 @@
         text-align: center;
     }
 
+    .header{
+        padding: 0;
+    }
+
     .headline{
         flex: 100%;
         margin: 5%;
+        padding: 20px;
         text-align: center;
     }
 
